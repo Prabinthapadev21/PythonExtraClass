@@ -1,7 +1,5 @@
 # name = "Prabin"
 # print(f"Name is {name}")
-from builtins import function
-from math import factorial
 
 # a = 10
 # b = 20
@@ -14,8 +12,8 @@ from math import factorial
 # else:
 #     print(f"{c} is greater")
 
-# function in python
-function factorial()
-{
+# A simple calculator
+num1 = 2
+num2 = 3
 
-}
+add = num1+num2

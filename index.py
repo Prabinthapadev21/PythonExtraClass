@@ -1,19 +1,22 @@
-# name = "Prabin"
-# print(f"Name is {name}")
-
-# a = 10
-# b = 20
-# c =30
-
-# if a>b and a>c:
-#     print(f"{a} is greater")
-# elif b>a and b>c:
-#     print(f"{b} is greater")
+# age = int(input("Enter your age:"))
+# if age >=18:
+#     print("You can vote")
 # else:
-#     print(f"{c} is greater")
+#     print("You cannot vote")
 
-# A simple calculator
-num1 = 2
-num2 = 3
+# num1 = int(input("Enter number one:"))
+# num2 = int(input("Enter number two:"))
 
-add = num1+num2
+# if num1 > num2:
+#     print(f"{num1} is greater than {num2}")
+# elif num1<num2:
+#     print(f"{num2} is greater than {num1}")
+# else:
+#     print("Both are equal")
+
+# for i in range(1,10):
+#     print(i)
+
+# name = "i am prabin thapa"
+# for i in name:
+#     print(i)

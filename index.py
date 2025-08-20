@@ -74,3 +74,45 @@
 # l1 = list+ ["lict","hello","tu"]
 # print(l1)
 
+
+# break
+# num = 0
+# for i in range(10):
+#     num+=1
+#     if(num ==8):
+#         break
+#     print("The num has value",num)
+# print("out of loop")
+
+# match case
+# day = int(input("Enter the day:"))
+# match day:
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday")
+#     case 3:
+#         print("Wednesday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Friday")
+#     case 6:
+#         print("Saturday")
+#     case 7:
+#         print("Sunday")
+#     case _:
+#         print("Invalid day")
+    
+
+# for i in range(1,50):
+#     if (i % 2) != 0:
+#         continue
+#     print(i)
+
+# t = (1,'c',"lumbini",9+7)
+# print(t)
+# print(type(t))
+# l = list(t)
+# print(l)
+# print(type(l))

@@ -116,3 +116,90 @@
 # l = list(t)
 # print(l)
 # print(type(l))
+
+# list = [1,2,3,4,5,6]
+# sum = 0
+# for i in list:
+#     sum +=i
+# print(sum)
+
+
+# list = ["prabin","sa","rabin","ab","ashok","abin"]
+# l=[]
+
+# for word in list:
+#     if  len(word)>3 and word[0] == "a":
+#         l.append(word)
+# l.sort()
+# print(l)
+
+
+# list = ["prabin","sasin","ashok","abin,","haab"]
+# l = []
+# for word in list:
+#     if len(word)<5 and word[-1]=="b":
+#         l.append(word)
+# l.sort()
+# l.reverse()
+# print(l)
+
+# prymaid
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print("*",end="")
+#     print("\r")
+
+# num = int(input("Enter number:"))
+# # multiply
+# for i in range(1,11):
+#     print(f"{num} * {i} = {num*i}")
+
+# triangle
+# n = 5
+# for i in range(1,n+1):
+#     for j in range(1,n-i+1):
+#         print(" ",end="")
+#     for k in range(1,2*i):
+#         print("*",end="")
+#     print()
+
+
+# Dictonary
+# d = {
+#     "name":"prabin",
+#     "age":21,
+#     "address":"gaindakot",
+#     "university":"Tu"
+# }
+
+# print(d)
+# import random
+# number = random.randint(1,50)
+# print(random.random())
+# print(number)
+
+# number guessing game
+import random
+attempt = 0
+randomnumber = random.randint(1,4)
+
+while True:
+    print("Number guessing game from 1-4 & (And enter 'a' to exit)")
+    try:
+     number = input("Guess a number:")
+    except:
+       print("Please enter a valid number")
+    attempt+=1
+    if number == 'a':
+       print("Exiting the program")
+       break
+    if int(number) == randomnumber:
+        print(f"you guess number in {attempt} attempt")
+        break
+    elif int(number) > randomnumber:
+       print("Your guess is high")
+    else:
+       print("Your is too low")
+
+
+

@@ -172,6 +172,30 @@
 #     "university":"Tu"
 # }
 
+# dictonary in python
+
+# mydetails = {
+#     "name":"prabin",
+#     "age":21,
+#     "address":"Gaindakot",
+#     "homwtown":"baglung"
+# }
+
+# print(mydetails["address"])
+# for key,value in mydetails.items():
+#     print(f"{key}:{value}")
+# print(len(mydetails))
+# print(type(mydetails))
+
+# dictonary using dic() constructor
+
+# mydict = dict(name = "prabin", age = 21 , address = "Gaindakot")
+# print(mydict)
+# print(len(mydict))
+# for key,value in mydict.items():
+#     print(f"{key}:{value}")
+
+
 # print(d)
 # import random
 # number = random.randint(1,50)
@@ -200,6 +224,4 @@ while True:
        print("Your guess is high")
     else:
        print("Your is too low")
-
-
 

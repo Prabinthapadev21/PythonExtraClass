@@ -202,26 +202,69 @@
 # print(random.random())
 # print(number)
 
+# mydetails = {
+#     "name":"prabin",
+#     "age":21,
+#     "address":"Gaindakot",
+#     "homwtown":"baglung"
+# }
+# print(mydetails["name"])
+# mydetails.
+
+
+
 # number guessing game
-import random
-attempt = 0
-randomnumber = random.randint(1,4)
+# import random
+# attempt = 0
+# randomnumber = random.randint(1,4)
 
-while True:
-    print("Number guessing game from 1-4 & (And enter 'a' to exit)")
-    try:
-     number = input("Guess a number:")
-    except:
-       print("Please enter a valid number")
-    attempt+=1
-    if number == 'a':
-       print("Exiting the program")
-       break
-    if int(number) == randomnumber:
-        print(f"you guess number in {attempt} attempt")
-        break
-    elif int(number) > randomnumber:
-       print("Your guess is high")
-    else:
-       print("Your is too low")
+# while True:
+#     print("Number guessing game from 1-4 & (And enter 'a' to exit)")
+#     try:
+#      number = input("Guess a number:")
+#     except:
+#        print("Please enter a valid number")
+#     attempt+=1
+#     if number == 'a':
+#        print("Exiting the program")
+#        break
+#     if int(number) == randomnumber:
+#         print(f"you guess number in {attempt} attempt")
+#         break
+#     elif int(number) > randomnumber:
+#        print("Your guess is high")
+#     else:
+#        print("Your is too low")
 
+
+# dictonary
+
+# Collage = {
+#     "Name":"Prabin",
+#     "Age":21,
+#     "Course":"BCA"
+# }
+# Collage["Address"]="Gaindakot"
+# Collage["Age"]=22
+# # Collage.clear()
+# # print(Collage)
+
+# for key,value in Collage.items():
+#     print(f"{key}:{value}")
+
+# this is called comprehension
+# squares = {x : x*x for x in range(1,11)}
+# print(squares)
+
+# displaying five student name and marks using dictonary
+
+students = {}
+
+for i in range(1, 6):
+    studentname = input("Enter student name: ")
+    studentmarks = input("Enter student marks: ")
+    students[studentname] = studentmarks   
+
+
+for key, value in students.items():
+    print(f"{key}: {value}")

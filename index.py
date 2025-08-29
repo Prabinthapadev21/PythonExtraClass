@@ -258,13 +258,13 @@
 
 # displaying five student name and marks using dictonary
 
-students = {}
+# students = {}
 
-for i in range(1, 6):
-    studentname = input("Enter student name: ")
-    studentmarks = input("Enter student marks: ")
-    students[studentname] = studentmarks   
+# for i in range(1, 6):
+#     studentname = input("Enter student name: ")
+#     studentmarks = input("Enter student marks: ")
+#     students[studentname] = studentmarks   
 
 
-for key, value in students.items():
-    print(f"{key}: {value}")
+# for key, value in students.items():
+#     print(f"{key}: {value}")
